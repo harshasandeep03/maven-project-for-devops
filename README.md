@@ -1,9 +1,9 @@
 
-```markdown
 # My Java Maven Project
 
 Welcome to the Java Maven project created by **Avinash Reddy Thipparthi**. This project demonstrates a simple Java application using Maven for build management. The application prints a custom message to the console and includes a basic unit test using JUnit 5.
 
+```markdown
 ## Project Structure
 
 my-app/
