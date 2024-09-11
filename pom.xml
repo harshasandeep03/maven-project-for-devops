@@ -32,15 +32,14 @@
       </plugins>
     </pluginManagement>
     <plugins>
-      <!-- Remove or update the maven-jar-plugin if needed -->
-      
       <!-- Add maven-war-plugin to build the WAR file -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
         <configuration>
-          <!-- Optional: customize the WAR file packaging if necessary -->
+          <!-- Disable the requirement for web.xml -->
+          <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
       
