@@ -6,7 +6,7 @@ package com.learndevops.app;
 public class App {
 
     private static final String MESSAGE = 
-        "Hello From Harsha Sandeep, You are here to master your skills.\n" +
+        "Hello From Injeti Harsha Sandeep, You are here to master your skills.\n" +
         "More you share, More you gain. Happy Learning and happy sharing. This is the updated webhook.";
 
     public App() {}
